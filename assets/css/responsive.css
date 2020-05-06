@@ -1,0 +1,135 @@
+  /*
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Template Name   : SASIMPRO
+  Author          : Shahed Ahmed
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  */
+
+  /* Medium Layout: 1280px. */
+
+  @media only screen and (min-width:1201px) and (max-width: 1600px) {
+
+      #background-text h1 {
+          font-size: 80px;
+      }
+
+
+
+
+
+  }
+
+
+
+
+
+  /* Medium Layout: 1280px. */
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      /* navbar */
+      .main-menu nav ul li a {
+          letter-spacing: 1px;
+          color: rgba(0, 0, 0, 0.7);
+          font-size: 15px;
+          font-weight: 700;
+          font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+      }
+      /* navbar end */
+      #background-text h1 {
+          font-size: 80px;
+
+      }
+
+  }
+
+  /*   ***** TABLET  LAYOUT 768px.  ******     */
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+      /* navbar */
+      .header-area {
+          background-color: #fff;
+          padding: 22px 0px;
+      }
+      .logo {
+          position: relative;
+          display: inline-block;
+          left: 5px;
+          bottom: -53px;
+          z-index: 1;
+      }
+      /* navbar end */
+      #background-text {
+          display: none;
+      }
+      .thumb img {
+          margin-top: 100px;
+      }
+      .left-content-area .thumb:before {
+          display: none;
+      }
+
+
+
+
+
+  }
+
+  /*  ***** SMALL SCREEN MOBILE 320px. *****    */
+
+  @media only screen and (max-width: 767px) {
+
+      /* navbar */
+      .header-area {
+          background-color: #fff;
+          padding: 6px 0px;
+      }
+      .logo {
+          position: relative;
+          display: inline-block;
+          left: 5px;
+          bottom: -53px;
+          z-index: 1;
+      }
+      .logo-div {
+          margin-top: -33px;
+      }
+
+      /* navbar end */
+      #background-text {
+          display: none;
+      }
+
+      .thumb img {
+          margin-top: 120px;
+      }
+      .left-content-area .thumb:before {
+          display: none;
+      }
+
+      .home-area {
+          height: auto;
+      }
+
+      .about-background {
+          display: none;
+      }
+      .searvices-background {
+          display: none;
+      }
+
+      .portfolio-background {
+          display: none;
+      }
+      .clints-background {
+          display: none;
+      }
+
+
+
+
+  }
+
+  /* LARGE SCREEN MOBILE LAYOUT */
+
+  @media only screen and (min-width: 360px) and (max-width: 767px) {}
